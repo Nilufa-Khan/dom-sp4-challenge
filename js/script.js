@@ -4,6 +4,7 @@
 var orderList = [];
 function  saveData(){
 let order = {
+
     "categoryname":document.getElementById("in1").value,
     "itemName":document.getElementById("in2").value,
     "price":document.getElementById("in3").value,
